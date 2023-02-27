@@ -1,0 +1,28 @@
+<script>
+    var data = {
+    hello1: 'value2',
+    hello2: 'value3',
+    hello3: 'value4',
+    hello4: 'value5',
+    hello5: 'value1',
+    hello6: 'value2',
+    hello7: 'value3'
+};
+
+console.log(data)
+
+var data1 = {};
+var data2 = {};
+
+for (var key in data) {
+    var numb = key.slice(-1)
+    
+    if (numb % 2 == 0) {
+        data1[key] = data[key];
+    } else {
+        data2[key] = data[key];
+    }
+}
+
+console.log(data1, data2);
+</script>
