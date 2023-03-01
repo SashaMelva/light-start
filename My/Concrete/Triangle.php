@@ -2,7 +2,7 @@
 
 namespace My\Concrete\Triangle;
 
-class Triangle 
+class Triangle extends Figure 
 {
     public function Square($a, $h) {
         return 1/2 * $a * $h;
