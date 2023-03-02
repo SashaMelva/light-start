@@ -4,9 +4,10 @@
 class A {
     private string $a = "gg";
 
-    public function  __sleep() {
-        return array("\0A\0a");
+    public function a() {
+        return strtoupper($this->a);
     }
 }
-echo((new A)->a
+echo assert(
+    "GG" == (new A)->a()
 );

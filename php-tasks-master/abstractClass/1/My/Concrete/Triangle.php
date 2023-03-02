@@ -5,7 +5,7 @@ use My\AbstractClass\AbstractFigure;
 
 class Triangle extends AbstractFigure 
 {
-    public $name = "<br/> Триугольник";
+    public $name = "<br/> Треугольник";
     public int $a;
     public int $b;
     public int $c;

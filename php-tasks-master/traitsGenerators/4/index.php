@@ -28,3 +28,4 @@ function getLines($file) {
 foreach (getLines("file.txt") as $n => $line) {
     ...
 }
+
