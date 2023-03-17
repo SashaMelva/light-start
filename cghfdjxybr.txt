@@ -1,1 +1,10 @@
 https://ru.hexlet.io/courses/php-introduction-to-oop/lessons/to-string/theory_unit
+
+
+class Plus implements Operation {
+
+   public function __construct(
+   	private float $firstNumber,
+   	private float $secondNumberNumber
+   )
+}
